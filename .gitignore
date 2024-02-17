@@ -1,0 +1,75 @@
+# Backend .gitignore
+/employeemanager/HELP.md
+/employeemanager/target/
+/employeemanager/!.mvn/wrapper/maven-wrapper.jar
+/employeemanager/!**/src/main/**/target/
+/employeemanager/!**/src/test/**/target/
+
+### STS ###
+/employeemanager/.apt_generated
+/employeemanager/.classpath
+/employeemanager/.factorypath
+/employeemanager/.project
+/employeemanager/.settings
+/employeemanager/.springBeans
+/employeemanager/.sts4-cache
+
+### IntelliJ IDEA ###
+/employeemanager/.idea
+/employeemanager/*.iws
+/employeemanager/*.iml
+/employeemanager/*.ipr
+
+### NetBeans ###
+/employeemanager/nbproject/private/
+/employeemanager/nbbuild/
+/employeemanager/dist/
+/employeemanager/nbdist/
+/employeemanager/.nb-gradle/
+/employeemanager/build/
+/employeemanager/!**/src/main/**/build/
+/employeemanager/!**/src/test/**/build/
+
+# Frontend .gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/employeemanagerapp/dist
+/employeemanagerapp/tmp
+/employeemanagerapp/out-tsc
+/employeemanagerapp/bazel-out
+
+# Node
+/employeemanagerapp/node_modules
+/employeemanagerapp/npm-debug.log
+/employeemanagerapp/yarn-error.log
+
+# IDEs and editors
+/employeemanagerapp/.idea/
+/employeemanagerapp/.project
+/employeemanagerapp/.classpath
+/employeemanagerapp/.c9/
+/employeemanagerapp/*.launch
+/employeemanagerapp/.settings/
+/employeemanagerapp/*.sublime-workspace
+
+# Visual Studio Code
+/employeemanagerapp/.vscode/*
+/employeemanagerapp/!.vscode/settings.json
+/employeemanagerapp/!.vscode/tasks.json
+/employeemanagerapp/!.vscode/launch.json
+/employeemanagerapp/!.vscode/extensions.json
+/employeemanagerapp/.history/*
+
+# Miscellaneous
+/employeemanagerapp/.angular/cache
+/employeemanagerapp/.sass-cache/
+/employeemanagerapp/connect.lock
+/employeemanagerapp/coverage
+/employeemanagerapp/libpeerconnection.log
+/employeemanagerapp/testem.log
+/employeemanagerapp/typings
+
+# System files
+/employeemanagerapp/.DS_Store
+/employeemanagerapp/Thumbs.db
